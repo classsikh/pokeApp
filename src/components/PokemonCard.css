@@ -1,0 +1,47 @@
+.pokemon-card {
+    background: linear-gradient(135deg, #edcb78, #f7e4b2, #fee08b);
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.187);
+   padding: 16px;
+    margin: 8px;
+    text-align: center;
+    width: 150px;
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+  }
+  .pokemon-card:hover {
+    cursor: pointer;
+    transform: translate(0, -5px);
+  }
+  
+  .pokemon-card:hover:after,
+  .pokemon-card:hover:before {
+    visibility: hidden;
+  }
+  .player-card:hover {
+    cursor: pointer;
+    transform: translate(0, -5px);
+  }
+  
+  .player-card:hover:after,
+  .player-card:hover:before {
+    visibility: hidden;
+  }
+  
+ 
+  @keyframes glider {
+    0% {
+      transform: rotate(45deg) translate(-12em, 1.2em);
+    }
+  
+    100% {
+      transform: rotate(45deg) translate(18em, -2.8em);
+    }
+  }

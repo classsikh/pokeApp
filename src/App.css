@@ -1,0 +1,18 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #FFDC73;
+  
+}
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
